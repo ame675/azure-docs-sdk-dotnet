@@ -1,0 +1,26 @@
+{
+  "Name": "Azure.ResourceManager.NetworkCloud",
+  "Version": "1.1.0-alpha.20241203.2",
+  "DevVersion": "1.1.0-alpha.20241203.2",
+  "DirectoryPath": "sdk/networkcloud/Azure.ResourceManager.NetworkCloud",
+  "ServiceDirectory": "networkcloud",
+  "ReadMePath": "sdk/networkcloud/Azure.ResourceManager.NetworkCloud/README.md",
+  "ChangeLogPath": "sdk/networkcloud/Azure.ResourceManager.NetworkCloud/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.NetworkCloud",
+  "ReleaseStatus": "2024-11-06",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "Azure.ResourceManager.NetworkCloud",
+    "safeName": "AzureResourceManagerNetworkCloud"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "Azure.ResourceManager.NetworkCloud",
+    "Azure.ResourceManager.NetworkCloud.Mocking",
+    "Azure.ResourceManager.NetworkCloud.Models"
+  ]
+}
