@@ -1,13 +1,12 @@
 ---
-title: Azure CloudMachine client library for .NET
-keywords: Azure, dotnet, SDK, API, Azure.CloudMachine, cloudmachine
+title: 
+keywords: Azure, dotnet, SDK, API, Azure.CloudMachine.All, cloudmachine
 ms.date: 12/06/2024
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: cloudmachine
 ---
-# Azure CloudMachine client library for .NET - version 1.0.0-alpha.20241206.4 
-
+# ASP.NET COre extensions for Azure CloudMachine client library for .NET
 
 TODO
 

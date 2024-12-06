@@ -1,7 +1,7 @@
 {
   "Name": "Azure.CloudMachine",
-  "Version": "1.0.0-alpha.20241205.3",
-  "DevVersion": "1.0.0-alpha.20241205.3",
+  "Version": "1.0.0-alpha.20241206.4",
+  "DevVersion": "1.0.0-alpha.20241206.4",
   "DirectoryPath": "sdk/cloudmachine/Azure.CloudMachine",
   "ServiceDirectory": "cloudmachine",
   "ReadMePath": "sdk/cloudmachine/Azure.CloudMachine/README.md",

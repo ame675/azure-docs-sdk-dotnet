@@ -1,15 +1,15 @@
 ---
-title: Azure CloudMachine client library for .NET
-keywords: Azure, dotnet, SDK, API, Azure.CloudMachine, cloudmachine
+title: Azure Provisioning client library for .NET
+keywords: Azure, dotnet, SDK, API, Azure.Provisioning.CloudMachine, cloudmachine
 ms.date: 12/06/2024
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: cloudmachine
 ---
-# Azure CloudMachine client library for .NET - version 1.0.0-alpha.20241206.4 
+# Azure Provisioning client library for .NET - version 1.0.0-alpha.20241206.4 
 
 
-TODO
+Azure.Provisioning.CloudMachine simplifies declarative resource provisioning in .NET for CloudMachine resources.
 
 ## Getting started
 
@@ -18,7 +18,7 @@ TODO
 Install the client library for .NET with [NuGet](https://www.nuget.org/ ):
 
 ```dotnetcli
-dotnet add package Azure.CloudMachine --prerelease
+dotnet add package Azure.Provisioning.CloudMachine --prerelease
 ```
 
 ### Prerequisites
@@ -29,7 +29,7 @@ dotnet add package Azure.CloudMachine --prerelease
 
 ## Key concepts
 
-TODO.
+This library allows you to specify your infrastructure in a declarative style using dotnet.  You can then use azd to deploy your infrastructure to Azure directly without needing to write or maintain bicep or arm templates.
 
 ## Examples
 
