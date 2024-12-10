@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: cloudmachine
 ---
-# Azure CloudMachine client library for .NET - version 1.0.0-alpha.20241209.6 
+# Azure CloudMachine client library for .NET - version 1.0.0-alpha.20241210.3 
 
 
 TODO
