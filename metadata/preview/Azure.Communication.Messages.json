@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Communication.Messages",
-  "Version": "1.2.0-alpha.20241210.1",
-  "DevVersion": "1.2.0-alpha.20241210.1",
+  "Version": "1.2.0-alpha.20241210.2",
+  "DevVersion": "1.2.0-alpha.20241210.2",
   "DirectoryPath": "sdk/communication/Azure.Communication.Messages",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/Azure.Communication.Messages/README.md",
@@ -14,8 +14,8 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "Azure.Communication.Messages",
-    "safeName": "AzureCommunicationMessages"
+    "safeName": "AzureCommunicationMessages",
+    "name": "Azure.Communication.Messages"
   },
   "CIMatrixConfigs": [],
   "Namespaces": [
