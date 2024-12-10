@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Communication.CallAutomation",
-  "Version": "1.2.0-alpha.20241209.2",
-  "DevVersion": "1.2.0-alpha.20241209.2",
+  "Version": "1.4.0-alpha.20241209.3",
+  "DevVersion": "1.4.0-alpha.20241209.3",
   "DirectoryPath": "sdk/communication/Azure.Communication.CallAutomation",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/Azure.Communication.CallAutomation/README.md",
@@ -14,13 +14,13 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "Azure.Communication.CallAutomation",
-    "safeName": "AzureCommunicationCallAutomation"
+    "safeName": "AzureCommunicationCallAutomation",
+    "name": "Azure.Communication.CallAutomation"
   },
+  "CIMatrixConfigs": [],
   "Namespaces": [
     "Azure.Communication.CallAutomation"
   ],
-  "CIMatrixConfigs": [],
   "DocsCiConfigProperties": {
     "isPrerelease": "true",
     "tfm": "netstandard2.0"

@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication Chat client library for .NET - version 1.4.0-alpha.20241209.2 
+# Azure Communication Chat client library for .NET - version 1.4.0-alpha.20241209.3 
 
 
 This package contains a C# SDK for Azure Communication Services for chat.
