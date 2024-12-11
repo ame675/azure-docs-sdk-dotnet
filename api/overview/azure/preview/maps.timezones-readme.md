@@ -1,17 +1,17 @@
 ---
 title: Azure Maps TimeZone client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Maps.TimeZones, maps
-ms.date: 12/10/2024
+ms.date: 12/11/2024
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: maps
 ---
-# Azure Maps TimeZone client library for .NET - version 1.0.0-beta.1 
+# Azure Maps TimeZone client library for .NET - version 1.0.0-alpha.20241210.1 
 
 
 Azure Maps TimeZone is a library which contains Azure Maps TimeZone APIs.
 
-[Source code](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/maps/Azure.Maps.TimeZones/src) | [API reference documentation](/rest/api/maps/) | [REST API reference documentation](/rest/api/maps/timezone) | [Product documentation](/azure/azure-maps/)
+[Source code](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.TimeZones/src) | [API reference documentation](/rest/api/maps/) | [REST API reference documentation](/rest/api/maps/timezone) | [Product documentation](/azure/azure-maps/)
 
 ## Getting started
 
@@ -50,9 +50,9 @@ MapsTimeZoneClient client = new MapsTimeZoneClient(credential);
 
 #### Microsoft Entra authentication
 
-In order to interact with the Azure Maps service, you'll need to create an instance of the `MapsTimeZoneClient` class. The [Azure Identity library](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/identity/Azure.Identity/README.md) makes it easy to add Microsoft Entra support for authenticating Azure SDK clients with their corresponding Azure services.
+In order to interact with the Azure Maps service, you'll need to create an instance of the `MapsTimeZoneClient` class. The [Azure Identity library](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity/README.md) makes it easy to add Microsoft Entra support for authenticating Azure SDK clients with their corresponding Azure services.
 
-To use Microsoft Entra authentication, the environment variables as described in the [Azure Identity README](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/identity/Azure.Identity/README.md) and create a `DefaultAzureCredential` instance to use with the `MapsTimeZoneClient`.
+To use Microsoft Entra authentication, the environment variables as described in the [Azure Identity README](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity/README.md) and create a `DefaultAzureCredential` instance to use with the `MapsTimeZoneClient`.
 
 We also need an **Azure Maps Client ID** which can be found on the Azure Maps page > Authentication tab > "Client ID" in Microsoft Entra Authentication section.
 
@@ -116,18 +116,18 @@ We guarantee that all client instance methods are thread-safe and independent of
 
 ### Additional concepts
 <!-- CLIENT COMMON BAR -->
-[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
-[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
-[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
-[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
-[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/core/Azure.Core/samples/Diagnostics.md) |
+[Client options](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
+[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
+[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
+[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
+[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md) |
 [Mocking](https://learn.microsoft.com/dotnet/azure/sdk/unit-testing-mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
 ## Examples
 
-You can familiarize yourself with different APIs using our [samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/maps/Azure.Maps.TimeZones/samples).
+You can familiarize yourself with different APIs using our [samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.TimeZones/samples).
 
 ### Get TimeZone By ID
 
@@ -208,11 +208,11 @@ For example, if you search with an invalid coordinate, a error is returned, indi
 
 ## Next steps
 
-* For more context and additional scenarios, please see: [detailed samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.TimeZones_1.0.0-beta.1/sdk/maps/Azure.Maps.TimeZones/samples)
+* For more context and additional scenarios, please see: [detailed samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps/Azure.Maps.TimeZones/samples)
 
 ## Contributing
 
-See the [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.TimeZones_1.0.0-beta.1/CONTRIBUTING.md) for details on building, testing, and contributing to this library.
+See the [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md) for details on building, testing, and contributing to this library.
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <cla.microsoft.com>.
 
